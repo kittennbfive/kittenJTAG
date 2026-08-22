@@ -1,2 +1,0 @@
-#! /bin/sh
-avr-gcc main.c 74xx595.c 4067.c adc.c pindir_ident.c avr_pinfuncs.c jtag.c channels.c parser.c -Wall -Wextra -Werror -O2 -std=c99 -mmcu=atmega16a -fshort-enums -o avr.elf -DF_CPU=7372800UL && avr-size avr.elf
